@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOApp</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+
+</head>
+<body>
+        <!-- <input type="text" id="uname" placeholder="Username"><br><br>
+        <input type="password" id="psw" placeholder="Password"><br><br>
+        <button >Login</button> -->
+
+
+
+       
+	<div class="container col-lg-4 mt-5  form-brd">
+        <form action="todolist.html"  onsubmit=" return login()">
+            <h3 class="text-center">Sign In</h3>
+            <div class="form-group">
+    
+            <!-- <label>Email Id</label> -->
+             <div class="input-group"> 
+            
+            <input type="text" class="form-control input-lg" id="uname" required placeholder="Username"></div></div>
+        <!-- </div> -->
+        <!-- <span class="help-block">enter your valid email id</span> -->
+            <br>
+            <div class="form-group">
+          <div class="input-group">
+         
+            <!-- <label>Password</label> -->
+            <input type="password" class="form-control" id="psw" required placeholder="Password">
+        </div></div>
+        <br>	
+        <div class="d-grid gap-2">
+        <button class="btn btn-primary ">Log In</button>
+    
+        </div>
+    
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
